@@ -72,6 +72,11 @@ show13.onclick = function(){
     modal.src = this.src;
     detalle.innerHTML = this.alt
                                     }
+show14.onclick = function(){
+    z.style.display ="block";
+    modal.src = this.src;
+    detalle.innerHTML = this.alt
+                                    }                                    
 
 show16.onclick = function(){
     z.style.display ="block";
@@ -129,7 +134,51 @@ show27.onclick = function(){
     modal.src = this.src;
     detalle.innerHTML = this.alt
                                     }                                                                                                                                                                                                                              
-
+show28.onclick = function(){
+    z.style.display ="block";
+    modal.src = this.src;
+    detalle.innerHTML = this.alt
+                                    }
+show29.onclick = function(){
+    z.style.display ="block";
+    modal.src = this.src;
+    detalle.innerHTML = this.alt
+                                    }   
+show30.onclick = function(){
+    z.style.display ="block";
+    modal.src = this.src;
+    detalle.innerHTML = this.alt
+                                    }
+show31.onclick = function(){
+    z.style.display ="block";
+    modal.src = this.src;
+    detalle.innerHTML = this.alt
+                                    } 
+show32.onclick = function(){
+    z.style.display ="block";
+    modal.src = this.src;
+    detalle.innerHTML = this.alt
+                                    }  
+show33.onclick = function(){
+    z.style.display ="block";
+    modal.src = this.src;
+    detalle.innerHTML = this.alt
+                                    } 
+show34.onclick = function(){
+    z.style.display ="block";
+    modal.src = this.src;
+    detalle.innerHTML = this.alt
+                                    }
+show35.onclick = function(){
+    z.style.display ="block";
+    modal.src = this.src;
+    detalle.innerHTML = this.alt
+                                    } 
+show36.onclick = function(){
+    z.style.display ="block";
+    modal.src = this.src;
+    detalle.innerHTML = this.alt
+                                    }                                                                                                                                                     
                                                                       
         // var span = document.getElementsByClassName("close")[0];
         var span =document.getElementById("myImg");
