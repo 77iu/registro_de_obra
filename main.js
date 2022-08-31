@@ -61,6 +61,11 @@ show11.onclick = function(){
     modal.src = this.src;
     detalle.innerHTML = this.alt
                                     }
+show12.onclick = function(){
+    z.style.display ="block";
+    modal.src = this.src;
+    detalle.innerHTML = this.alt
+                                    }                                    
 
 show13.onclick = function(){
     z.style.display ="block";
