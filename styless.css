@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  font-size: 1rem;
+  display: inline-block;
+  background-color: rgba(0,0,0,0.2);
+  padding: 2px 3px ;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  
+}
+a:hover{
+background-color: #000090;
+color: white;
+}
+/* html{
+    scroll-behavior: smooth;
+    scroll-padding: 100%;
+} */
+
+
+
+.descripcion{
+  /* background-color: rgb(0, 0, 0,0.5); */
+  background: linear-gradient(to top, rgba(0, 0, 144,0.8), rgba(0, 0, 144,0.6), white,  rgba(0, 0, 144,0.6), rgba(0, 0, 144,0.8));
+  border-radius: 50px;
+  width: 90%;
+  padding: 5px;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  left: 5%;
+  margin-top: 5px;
+  font-weight: 900;
+  letter-spacing: 5px;
+
+}
+header{
+
+    max-width: 1280px;
+    margin: auto;
+    height: 80px;
+    background-color: #000090;
+   
+
+}
+h1{
+   
+padding-left: 20px;
+padding-top: 20px;
+color: white;
+}
+.items{
+  background-color: rgba(0, 0, 0,0.0);
+  margin: 5px auto;
+  /* width: 70%; */
+  /* padding: 5px;  */
+  text-align: center;
+  /* cursor: pointer; */
+}
+
+.contenedor{
+    max-width: 1280px;
+    margin: auto;
+    height: calc(100vh - 130px);
+    /* overflow-y: scroll; */ 
+}
+
+.derecha{
+  width: 40%;
+  float: right;
+ 
+  height: 100%;
+  overflow-y: scroll;
+}
+footer{
+    max-width: 1280px;
+    height: 50px;
+    background-color: #000090;
+    margin: auto;
+}
+
+
+.izquierda{
+    width: 60%;
+    height: 100%;
+    
+    overflow-y: scroll;
+   
+   
+  
+}
+
+
+
+.grid4{
+   
+    display: grid;
+    /* grid-template-columns: 23% 23% 23% 23%; */
+    grid-template-columns: 1fr 1fr 1fr ;
+   
+
+}
+
+.obs{
+  
+  width: 90%;
+  padding: 5px;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  left: 5%;
+
+}
+/* modal------------------------------------------- */
+img{
+    width: 100%;
+    cursor: pointer;
+    padding: 5px;
+    
+    border-radius: 10px;
+    
+    transition: 0.3s;
+}
+img:hover {filter: saturate(200%);}
+
+.z {
+    display: none; /* oculto por defecto */
+    position: fixed; /* permanece en lugar */
+    z-index: 1; /* un nivel z arriba */
+    padding-top: 0px; /* ubicacion de la caja */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* escrolear si es necesario */
+   
+    background-color:gainsboro; 
+  }
+  .modal{
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+}
+#caption {
+    background-color:gainsboro; 
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    /* color: #ccc; */
+    color: red;
+    padding: 10px 0;
+    /* height: 150px; */
+  }
+  /* Add Animation */
+.modal, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+  }
+
+  /* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
+
+  .titulo{
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+.tramos{
+    width: 100%;
+    border-bottom: 20px solid rgb(0, 0, 0,0);
+    /* height: 100%; */  
+}
+.trabajos{
+  background-color: rgba(0, 0, 0,0.8);
+  color: white;
+  padding: 5px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  /* padding-left : 25%; */
+  
+  text-align: center;
+}
