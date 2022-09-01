@@ -25,14 +25,15 @@ color: white;
 .contenedor{
   max-width: 1280px;
   margin: auto;
-  height: calc(100vh - 90px);
+  height: calc(100vh - 10px);
+  padding-top: 80px;
  
   /* overflow-y: scroll; */ 
 }
 
 .completo{
   display: inline-block;
-  background: linear-gradient(to left, green, white);
+  background: linear-gradient(to left, rgb(0, 200, 0), white);
   border: 0.1rem solid gray;
   padding: 0 10px;
   border-radius: 2px;
@@ -88,8 +89,10 @@ header{
   /* position: relative;
   top: 0;
   max-width: 1280px; */
-  position: relative;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   margin: auto;
   height: 80px;
   background-color: #000090;
@@ -239,18 +242,20 @@ img:hover {filter: saturate(200%);}
 .trabajos{
   background-color: rgba(0, 0, 0,0.8);
   color: white;
+  width: 40%;
+  height: 100px;
   padding: 5px;
   font-weight: bolder;
   letter-spacing: 1px;
-  /* padding-left : 25%; */
+  display: flex;
+  align-items: flex-end;
   
-  text-align: center;
+  
 }
 /* .trabajosP{
-  background-color: aqua;
-  position: absolute;
-  width: 5%;
-  right: 0;
+  
+  background-color:white;
+  color: black;
   display: inline-block;
 
  
