@@ -26,7 +26,7 @@ color: white;
   max-width: 1280px;
   margin: auto;
   height: calc(100vh - 10px);
-  padding-top: 80px;
+  
  
   /* overflow-y: scroll; */ 
 }
@@ -86,13 +86,10 @@ footer{
 }
 /* ========================================================================HHH */
 header{
-  /* position: relative;
-  top: 0;
-  max-width: 1280px; */
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
+   /* position: relative;
+  top: 0; */
+   max-width: 1280px;
+  
   margin: auto;
   height: 80px;
   background-color: #000090;
@@ -242,23 +239,24 @@ img:hover {filter: saturate(200%);}
 .trabajos{
   background-color: rgba(0, 0, 0,0.8);
   color: white;
-  width: 40%;
-  height: 100px;
+  width: 100%;
+ 
   padding: 5px;
   font-weight: bolder;
   letter-spacing: 1px;
-  display: flex;
-  align-items: flex-end;
+  
   
   
 }
-/* .trabajosP{
+.trabajosP{
   
-  background-color:white;
-  color: black;
+ color: white;
+ border: 1px solid white;
+ border-radius: 3px;
+ padding: 2px;
   display: inline-block;
 
  
-} */
+}
 
 
