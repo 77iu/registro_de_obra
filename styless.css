@@ -246,9 +246,9 @@ nav{
   text-decoration: none;
 }
 /* Dar color al pasar sobre elemento primario */
-.menu__horizontal > li:hover{
+/* .menu__horizontal > li:hover{
   
-}
+} */
 /* Oculta elementos secundarios */
 .menu__vertical{
   position: absolute;
