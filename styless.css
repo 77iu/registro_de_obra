@@ -77,7 +77,9 @@ height: 100%;
 }
 /* ========================================================================EEE */
 
-
+.enEjecucion{
+  border-right: 5px solid green;
+}
 
 /* ========================================================================FFF */
 footer{
@@ -133,7 +135,7 @@ text-align: center;
 .incompleto{
 display: inline-block;
 
-border: 0.1rem solid rgb(128, 128, 128, 0.7);
+/* border: 0.1rem solid rgb(128, 128, 128, 0.7); */
 padding: 0 10px;
 border-radius: 2px;
 margin: 1px;
