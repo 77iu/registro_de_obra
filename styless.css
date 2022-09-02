@@ -385,7 +385,7 @@ cursor: pointer;
  .incompleto{
    display: inline-block;
    font-size: 10px;
-   border: 0.1rem solid rgb(128, 128, 128, 0.7);
+   /* border: 0.1rem solid rgb(128, 128, 128, 0.7); */
    padding: 0 10px;
    border-radius: 2px;
    margin: 1px;
