@@ -47,9 +47,9 @@ height: calc(100vh - 10px);
 display: inline-block;
 background: rgba(0, 128, 0,0.3);
 /* border: 0.1rem solid gray; */
-padding: 0 10px;
 border-radius: 2px;
-margin: 1px;
+padding:  10px 10px 10px 3px;
+margin: 1px 0px;
 }
 
 /* ========================================================================DDD */
@@ -79,28 +79,51 @@ height: 100%;
 }
 /* ========================================================================EEE */
 
-.enEjecucion{
+.enEjecucionT{
   border-right: 5px solid green;
   /* border-radius: 0 5px 5px 0; */
   border-radius: 4px;
   display: inline;
   animation-duration: 1s;
-  animation-name: enEjecucion;
+  animation-name: enEjecucionT;
   animation-iteration-count: 
     infinite; 
 
 }
-@keyframes enEjecucion {
+@keyframes enEjecucionT {
   0%{
     border-right: 5px solid rgba(0,0,0,0) ;
   }
   50%{
     border-right: 5px solid green ;
-    filter: brightness(2
-    );
+    filter: brightness(2 );
   }
   100%{
     border-right: 5px solid rgba(0,0,0,0);
+  }
+}
+
+.enEjecucionE{
+ 
+ 
+ 
+  display: inline;
+  animation-duration: 1s;
+  animation-name: enEjecucionE;
+  animation-iteration-count: 
+    infinite; 
+
+}
+@keyframes enEjecucionE {
+  0%{
+    background-color: rgba(0,0,0,0);
+  }
+  50%{
+   background-color: green;
+    filter: brightness(2 );
+  }
+  100%{
+    background-color: rgba(0,0,0,0);
   }
  
   
@@ -109,10 +132,10 @@ height: 100%;
 .estado{
   width: 10px;
   height: 10px;
+  margin-right: 3px;
   border-radius: 50%;
-  background-color: red;
-  display: flex;
-  align-items: center;
+  /* background-color: red; */
+  
 }
 
 /* ========================================================================FFF */
@@ -159,13 +182,18 @@ color: white;
 }
 .items{
 background-color: rgba(0, 0, 0,0);
+width: 80%;
+margin: 20px 0;
+margin-left: 50px;
+display:flex;
+justify-content: space_between;
+align-items:center;
 
-margin: 10px auto;
 
 
 /* width: 70%; */
 /* padding: 5px;  */
-text-align: center;
+/* text-align: center; */
 /* cursor: pointer; */
 }
 
@@ -173,13 +201,14 @@ text-align: center;
 display: inline-block;
 
 /* border: 0.1rem solid rgb(128, 128, 128, 0.7); */
-padding: 0 10px;
+padding:  10px 10px 10px 3px;
+margin: 1px 0px;
 border-radius: 2px;
-margin: 1px;
 color:rgba(128, 128, 128, 0.7) ;
 /* border: 1px solid rgba(128, 128, 128, 0.7); */
 
 }
+
 
 /* ========================================================================JJJ */
 
@@ -324,10 +353,16 @@ nav{
 
 width: 90%;
 padding: 5px;
+margin-left: 10px;
 /* text-align: center; */
-display: inline-block;
-position: relative;
-left: 5%;
+/* display: inline-block; */
+/* position: relative;
+left: 5%; */
+}
+.obsElementos{
+  display:flex;
+justify-content: space_between;
+align-items:center;
 }
 
 /* ========================================================================TTT */
@@ -370,7 +405,7 @@ cursor: pointer;
 @media only screen and (max-width: 575px){
   a{
     font-size: 10px;
-    padding: 10px 5px;
+    padding: 5px 5px;
     color: black;
 
    
@@ -450,7 +485,7 @@ cursor: pointer;
   
  }
  .items{
-  margin: 5px;
+  margin: 3px 20px;
   padding: 0 2px;
  }
 
