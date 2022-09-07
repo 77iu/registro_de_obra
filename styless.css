@@ -35,9 +35,10 @@ color: white;
 }
 /* ========================================================================CCC */
 .contenedor{
+  
 max-width: 1280px;
 margin: auto;
-height: calc(100vh );
+height: calc(100vh - 110px );
 
 
 /* overflow-y: scroll; */ 
@@ -75,7 +76,7 @@ padding:  10px 10px 10px 3px;
 .derecha{
 width: 40%;
 float: right;
-
+overflow-y: scroll;
 height: 100%;
 }
 /* ========================================================================EEE */
@@ -134,7 +135,7 @@ grid-template-columns: 1fr 1fr ;
 }
 /* ========================================================================HHH */
 header{
- 
+
  max-width: 1280px;
 
 margin: auto;
