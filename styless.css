@@ -162,7 +162,7 @@ color: white;
 background-color: rgba(0, 0, 0,0);
 width: 100%;
 margin: 3px 0;
-margin-left: 10px;
+margin-left: 5px;
 display:flex;
 justify-content: space_between;
 align-items:center;
@@ -288,7 +288,7 @@ nav{
 } 
 /* Formato del elemento primario */
 .menu__horizontal > li > a {
-  display: block;
+  display: inline-block;
   /* padding: 15px 20px; */
   color: white;
   text-decoration: none;
@@ -468,7 +468,7 @@ cursor: pointer;
   
  }
  .items{
-  margin: 3px 20px;
+  margin: 3px 3px;
   padding: 0 2px;
  }
 
