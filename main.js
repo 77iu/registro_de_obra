@@ -45,6 +45,9 @@ var show43 = document.getElementById("show43");
 var show44 = document.getElementById("show44");
 var show45 = document.getElementById("show45");
 var show46 = document.getElementById("show46");
+var show47 = document.getElementById("show47");
+var show48 = document.getElementById("show48");
+var show49 = document.getElementById("show49");
 var modal = document.getElementById("myImg");
 var detalle = document.getElementById("caption");
 
@@ -271,7 +274,22 @@ show46.onclick = function(){
     z.style.display ="block";
     modal.src = this.src;
     detalle.innerHTML = this.alt
-                                    }                                                                                                                 
+                                    }   
+show47.onclick = function(){
+    z.style.display ="block";
+    modal.src = this.src;
+    detalle.innerHTML = this.alt
+                                    }  
+show48.onclick = function(){
+    z.style.display ="block";
+    modal.src = this.src;
+    detalle.innerHTML = this.alt
+                                    } 
+show49.onclick = function(){
+    z.style.display ="block";
+    modal.src = this.src;
+    detalle.innerHTML = this.alt
+                                    }                                                                                                                                                    
                                    
                                                                                                                                                                                           
                                                                       
