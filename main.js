@@ -48,6 +48,11 @@ var show46 = document.getElementById("show46");
 var show47 = document.getElementById("show47");
 var show48 = document.getElementById("show48");
 var show49 = document.getElementById("show49");
+var show50 = document.getElementById("show50");
+var show51 = document.getElementById("show51");
+var show52 = document.getElementById("show52");
+var show53 = document.getElementById("show53");
+var show54 = document.getElementById("show54");
 var modal = document.getElementById("myImg");
 var detalle = document.getElementById("caption");
 
@@ -289,7 +294,32 @@ show49.onclick = function(){
     z.style.display ="block";
     modal.src = this.src;
     detalle.innerHTML = this.alt
-                                    }                                                                                                                                                    
+                                    }
+show50.onclick = function(){
+    z.style.display ="block";
+    modal.src = this.src;
+    detalle.innerHTML = this.alt
+                                    } 
+show51.onclick = function(){
+    z.style.display ="block";
+    modal.src = this.src;
+    detalle.innerHTML = this.alt
+                                    }   
+show52.onclick = function(){
+    z.style.display ="block";
+    modal.src = this.src;
+    detalle.innerHTML = this.alt
+                                    }  
+show53.onclick = function(){
+    z.style.display ="block";
+    modal.src = this.src;
+    detalle.innerHTML = this.alt
+                                    } 
+show54.onclick = function(){
+    z.style.display ="block";
+    modal.src = this.src;
+    detalle.innerHTML = this.alt
+                                    }                                                                                                                                                       
                                    
                                                                                                                                                                                           
                                                                       
