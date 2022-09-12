@@ -53,6 +53,8 @@ var show51 = document.getElementById("show51");
 var show52 = document.getElementById("show52");
 var show53 = document.getElementById("show53");
 var show54 = document.getElementById("show54");
+var show55 = document.getElementById("show55");
+var show56 = document.getElementById("show56");
 var modal = document.getElementById("myImg");
 var detalle = document.getElementById("caption");
 
@@ -319,7 +321,17 @@ show54.onclick = function(){
     z.style.display ="block";
     modal.src = this.src;
     detalle.innerHTML = this.alt
-                                    }                                                                                                                                                       
+                                    }   
+show55.onclick = function(){
+    z.style.display ="block";
+    modal.src = this.src;
+    detalle.innerHTML = this.alt
+                                    } 
+show56.onclick = function(){
+    z.style.display ="block";
+    modal.src = this.src;
+    detalle.innerHTML = this.alt
+                                    }                                                                                                                                                      
                                    
                                                                                                                                                                                           
                                                                       
