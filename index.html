@@ -1,331 +1,536 @@
-var z = document.getElementById("z");
-var show01 = document.getElementById("show01");
-var show02 = document.getElementById("show02");
-var show03 = document.getElementById("show03");
-var show04 = document.getElementById("show04");
-var show05 = document.getElementById("show05");
-var show06 = document.getElementById("show06");
-var show07 = document.getElementById("show07");
-var show08 = document.getElementById("show08");
-var show09 = document.getElementById("show09");
-var show10 = document.getElementById("show10");
-var show11 = document.getElementById("show11");
-var show12 = document.getElementById("show12");
-var show13 = document.getElementById("show13");
-var show14 = document.getElementById("show14");
-var show15 = document.getElementById("show15");
-var show16 = document.getElementById("show16");
-var show17 = document.getElementById("show17");
-var show18 = document.getElementById("show18");
-var show19 = document.getElementById("show19");
-var show20 = document.getElementById("show20");
-var show21 = document.getElementById("show21");
-var show22 = document.getElementById("show22");
-var show23 = document.getElementById("show23");
-var show24 = document.getElementById("show24");
-var show25 = document.getElementById("show25");
-var show26 = document.getElementById("show26");
-var show27 = document.getElementById("show27");
-var show28 = document.getElementById("show28");
-var show29 = document.getElementById("show29");
-var show30 = document.getElementById("show30");
-var show31 = document.getElementById("show31");
-var show32 = document.getElementById("show32");
-var show33 = document.getElementById("show33");
-var show34 = document.getElementById("show34");
-var show35 = document.getElementById("show35");
-var show36 = document.getElementById("show36");
-var show37 = document.getElementById("show37");
-var show38 = document.getElementById("show38");
-var show39 = document.getElementById("show39");
-var show40 = document.getElementById("show40");
-var show41 = document.getElementById("show41");
-var show42 = document.getElementById("show42");
-var show43 = document.getElementById("show43");
-var show44 = document.getElementById("show44");
-var show45 = document.getElementById("show45");
-var show46 = document.getElementById("show46");
-var show47 = document.getElementById("show47");
-var show48 = document.getElementById("show48");
-var show49 = document.getElementById("show49");
-var show50 = document.getElementById("show50");
-var show51 = document.getElementById("show51");
-var show52 = document.getElementById("show52");
-var show53 = document.getElementById("show53");
-var show54 = document.getElementById("show54");
-var modal = document.getElementById("myImg");
-var detalle = document.getElementById("caption");
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de obra</title>
+    <link rel="stylesheet" href="styless.css">
+    <link rel="stylesheet" href="modal.css">
+   
+</head>
+<body>
+    <header>
+        <h1>Registro de obra</h1>
+    </header>
+    <section class="contenedor">
+       <div class="barraLateraltitulo">
+        <h1>Registro de obra</h1>
+       </div>
+        <section class="derecha">
+            <div class="trabajos">
+                <!-- <p class="trabajosP">IMPULSION</p> -->
+                <nav>
+                    <ul class="menu__horizontal trabajosP">
+                        <li><a href="#"> Impulsión</a>
+                            <!-- <ul class="menu__vertical">
+                                <li><a href="by__pass.html">By Pass</a></li>
+                                <li><a href="#">lolo</a></li>
+                                <li><a href="#">lolo</a></li>
+                                <li><a href="#">lolo</a></li>
+                                <li><a href="#">lolo</a></li>
+                            </ul>     -->
+                        </li>
+                        
+                    </ul>
+                </nav>
+            </div>
+            <!-- <div class="trabajosP">Cerco perimetral</div> -->
+          <div class="items" > <div class="estado "></div> <a href="#detalle">Detalle</a>
+        </div>  
+          <div class="items" > <div class="estado "></div> <a  href="#tramo30-31">30-31</a></div>
+          <div class="items" > <div class="estado "></div> <a  href="#tramo31-32">31-32</a></div> 
+          <div class="items" > <div class="estado "></div> <a  href="#tramo32-33">32-33</a></div>
+          <div class="items" > <div class="estado "></div> <a  href="#tramo33-34">33-34</a></div>
+          <div class="items" > <div class="estado "></div> <a  href="#tramo34-35">34-35</a></div>
+          <div class="items" > <div class="estado "></div> <a  href="#tramo35-36">35-36</a></div>
+          <div class="items" > <div class="estado "></div> <a  href="#tramo36-37">36-37</a></div>
+          <div class="items" > <div class="estado "></div> <a  href="#tramo37-38">37-38</a></div>
+          <div class="items" > <div class="estado "></div> <a  href="#tramo38-39">38-39</a></div>
+          <div class="items" > <div class="estado "></div> <a  href="#tramo39-40">39-40</a></div>
+          <div class="items" > <div class="estado "></div> <a  href="#tramo40-41">40-41</a></div>
+          <div class="trabajos">
+            <!-- <p class="trabajosP">IMPULSION</p> -->
+            <nav>
+                <ul class="menu__horizontal trabajosP">
+                    <li><a href="#"> By Pass</a>
+                       
+                    </li>
+                    
+                </ul>
+            </nav>
+        </div>
+          <div class="items" > <div class="estado "></div> <a  href="#byPass">Cañería</a></div>
+          <div class="items" > <div class="estado "></div> <a  href="#br01">BR01</a></div>
+          <div class="items" > <div class="estado "></div> <a  href="#br02">BR02</a></div>
 
 
-show01.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    }
-show02.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    }
-show03.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    } 
-show04.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
- }
-show05.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    }
-show06.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    }
-show07.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    } 
-show08.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    }
-show09.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    } 
-show10.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    }
-show11.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    }
-show12.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    }                                    
+          <div class="trabajos">
+            <!-- <p class="trabajosP">IMPULSION</p> -->
+            <nav>
+                <ul class="menu__horizontal trabajosP">
+                    <li><a href="#"> Cerco Perimetral</a>
+                        <!-- <ul class="menu__vertical">
+                            <li><a href="by__pass.html">By Pass</a></li>
+                            <li><a href="#">lolo</a></li>
+                            <li><a href="#">lolo</a></li>
+                            <li><a href="#">lolo</a></li>
+                            <li><a href="#">lolo</a></li>
+                        </ul>     -->
+                    </li>
+                    
+                </ul>
+            </nav>
+        </div>
+        <div class="items" > <div class="estado "></div> <a  href="#">Norte</a></div>
+        <div class="items" > <div class="estado "></div> <a  href="#">Sur</a></div>
+        <div class="items" > <div class="estado enEjecucion"></div> <a  href="#este">Este</a></div>
+        <div class="items" > <div class="estado "></div> <a  href="#">Oeste</a></div>
+        </section><!-- derecha -->
 
-show13.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    }
-show14.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    }                                    
 
-show16.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    } 
-show17.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    } 
-show18.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    }
+        <section class="izquierda">
+          
+            
+            <section class="tramos" id="detalle" > <!-- imagen impulsion -->
+               
+                <!-- <p class="obs">
+                    excavacion: ok <br>
+                    cama de asiento: ok <br>
+                    cañería: ok <br>
+                    relleno lateral: ok <br>
+                    relleno +0.15: ok <br>
+                    relleno +0.30: ok
+        </p> -->
+       
+            <img id="show12" src="assets/impulsion.jpg" alt="">
+            
+            <div id="z" class="z">
+                <!-- <span class="close">cerrar</span> -->
+                <div id="caption"></div>
+                 <img class="modal" src="" alt="" id="myImg">
+                 <div id="caption"></div>
+                    </div> 
+         
+            </section><!-- tramo imagen impulsion -->
+            <section class="tramos" id="tramo30-31" ><!-- tramo 30-31 -->
+                <p class="descripcion">Tramo 30-31</p>
+                <div class="obs">
+                    <div class="obsElementos" > <div class="estado"></div><p class="incompleto">Excavación</p></div>
+                    <div class="obsElementos" > <div class="estado"></div><p class="incompleto">Perfilado</p></div>
+                    <div class="obsElementos" > <div class="estado"></div><p class="incompleto">Cama de asiento</p></div>
+                    <div class="obsElementos" > <div class="estado"></div><p class="incompleto">Instalación de caño</p></div>
+                    <div class="obsElementos" > <div class="estado"></div><p class="incompleto">Comp. de riñones</p></div>
+                    <div class="obsElementos" > <div class="estado"></div><p class="incompleto">Relleno de 1° etapa</p></div>
+                    <div class="obsElementos" > <div class="estado"></div><p class="incompleto">Relleno de 2° etapa</p></div>
+                    <div class="obsElementos" > <div class="estado"></div><p class="incompleto">Prueba hidráulica</p></div>
+                 </div><!-- obs -->
+                
+            </section><!-- tramo 30-31 -->
+            <section class="tramos" id="tramo31-32" > <!-- tramo 31-32 -->
+                <p class="descripcion">Tramo 31-32</p>
+                <div class="obs">
+                     <div class="obsElementos" > <div class="estado"></div> <p class="completo">Excavación</p></div>
+                     <div class="obsElementos" > <div class="estado"></div> <p class="completo">Perfilado</p></div>
+                     <div class="obsElementos" > <div class="estado"></div> <p class="completo">Cama de asiento</p></div>
+                     <div class="obsElementos" > <div class="estado"></div> <p class="completo">Instalación de caño</p></div>
+                     <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Comp. de riñones</p></div>
+                     <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Relleno de 1° etapa</p></div>
+                     <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Relleno de 2° etapa</p></div>
+                     <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Prueba hidráulica</p></div>
+                 </div><!-- obs -->
+        <div class="grid4">
+            <img id="show01" src="assets/impulsionTramos/31-32_01.jpg" alt="">
+            <img id="show02" src="assets/impulsionTramos/31-32_02.jpg" alt="">
+            <img id="show03" src="assets/impulsionTramos/31-32_03.jpg" alt="">
+            <img id="show04" src="assets/impulsionTramos/31-32_04.jpg" alt="">
+            <img id="show28" src="assets/impulsionTramos/31-32_05.jpg" alt="">
+            <img id="show29" src="assets/impulsionTramos/31-32_06.jpg" alt="">
+            <div id="z" class="z">
+                <!-- <span class="close">cerrar</span> -->
+                <div id="caption"></div>
+                 <img class="modal" src="" alt="" id="myImg">
+                 <div id="caption"></div>
+                    </div> 
+        </div>
+       
 
-show20.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    } 
-show21.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    }
-show22.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    }
-show23.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    }
-show24.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    } 
-show25.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    } 
-show26.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    }
-show27.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    }                                                                                                                                                                                                                              
-show28.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    }
-show29.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    }   
-show30.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    }
-show31.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    } 
-show32.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    }  
-show33.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    } 
-show34.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    }
-show35.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    } 
-show36.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    }  
-show37.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    } 
-show38.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    } 
-show39.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    } 
-show40.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    }  
-show41.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    } 
-show42.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    } 
-show43.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    } 
-show44.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    }  
-show45.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    } 
-show46.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    }   
-show47.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    }  
-show48.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    } 
-show49.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    }
-show50.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    } 
-show51.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    }   
-show52.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    }  
-show53.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    } 
-show54.onclick = function(){
-    z.style.display ="block";
-    modal.src = this.src;
-    detalle.innerHTML = this.alt
-                                    }                                                                                                                                                       
-                                   
-                                                                                                                                                                                          
-                                                                      
-        // var span = document.getElementsByClassName("close")[0];
-        var span =document.getElementById("myImg");
-        span.onclick = function(){
-            z.style.display ="none";
-        }
- 
+                
+            </section><!-- tramo 31-32 -->
+            <section class="tramos" id="tramo32-33" > <!-- tramo 32-33 -->
+                <p class="descripcion">Tramo 32-33</p>
+                <div class="obs">
+                    <div class="obsElementos" > <div class="estado"></div> <p class="completo">Excavación</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="completo">Perfilado</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="completo">Cama de asiento</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="completo">Instalación de caño</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Comp. de riñones</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Relleno de 1° etapa</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Relleno de 2° etapa</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Prueba hidráulica</p></div>
+                 </div><!-- obs -->
+        <div class="grid4">
+            <img id="show05" src="assets/impulsionTramos/32-33_01.jpg" alt="">
+            <img id="show06" src="assets/impulsionTramos/32-33_02.jpg" alt="">
+            <img id="show07" src="assets/impulsionTramos/32-33_03.jpg" alt="">
+            <img id="show30" src="assets/impulsionTramos/32-33_04.jpg" alt="">
+            <img id="show31" src="assets/impulsionTramos/32-33_05.jpg" alt="">
+            
+            <div id="z" class="z">
+                <!-- <span class="close">cerrar</span> -->
+                <div id="caption"></div>
+                 <img class="modal" src="" alt="" id="myImg">
+                 <div id="caption"></div>
+                    </div> 
+        </div>
+       
+
+                
+            </section><!-- tramo 32-33 -->
+            <section class="tramos" id="tramo33-34" > <!-- tramo 33-34 -->
+                <p class="descripcion">Tramo 33-34</p>
+                <div class="obs">
+                    <div class="obsElementos" > <div class="estado"></div> <p class="completo">Excavación</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="completo">Perfilado</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="completo">Cama de asiento</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="completo">Instalación de caño</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Comp. de riñones</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Relleno de 1° etapa</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Relleno de 2° etapa</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Prueba hidráulica</p></div>
+                 </div><!-- obs -->
+        <div class="grid4">
+            <img id="show08" src="assets/impulsionTramos/33-34_01.jpg" alt="">
+            <img id="show09" src="assets/impulsionTramos/33-34_02.jpg" alt="">
+            <img id="show32" src="assets/impulsionTramos/33-34_03.jpg" alt="">
+            <div id="z" class="z">
+                <!-- <span class="close">cerrar</span> -->
+                <div id="caption"></div>
+                 <img class="modal" src="" alt="" id="myImg">
+                 <div id="caption"></div>
+                    </div> 
+        </div>
+       
+
+                
+            </section><!-- tramo 33-34 -->
+            <section class="tramos" id="tramo34-35" > <!-- tramo 34-35 -->
+                <p class="descripcion">Tramo 34-35</p>
+                <div class="obs">
+                    <div class="obsElementos" > <div class="estado"></div> <p class="completo">Excavación</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="completo">Perfilado</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="completo">Cama de asiento</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="completo">Instalación de caño</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Comp. de riñones</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Relleno de 1° etapa</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Relleno de 2° etapa</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Prueba hidráulica</p></div>
+                 </div><!-- obs -->
+        <div class="grid4">
+            <img id="show33" src="assets/impulsionTramos/34-35_01.jpg" alt="">
+            <img id="show34" src="assets/impulsionTramos/34-35_02.jpg" alt="">
+          
+            <div id="z" class="z">
+                
+                <div id="caption"></div>
+                 <img class="modal" src="" alt="" id="myImg">
+                 <div id="caption"></div>
+                    </div> 
+        </div>
+       
+
+                
+            </section><!-- tramo 34-35 -->
+            <section class="tramos" id="tramo35-36" > <!-- tramo 35-36 -->
+                    <p class="descripcion">Tramo 35-36</p>
+                    <div class="obs">
+                       <div class="obsElementos" > <div class="estado"></div> <p class="completo">Excavación</p></div>
+                       <div class="obsElementos" > <div class="estado"></div> <p class="completo">Perfilado</p></div>
+                       <div class="obsElementos" > <div class="estado"></div> <p class="completo">Cama de asiento</p></div>
+                       <div class="obsElementos" > <div class="estado"></div> <p class="completo">Instalación de caño</p></div>
+                       <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Comp. de riñones</p></div>
+                       <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Relleno de 1° etapa</p></div>
+                       <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Relleno de 2° etapa</p></div>
+                       <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Prueba hidráulica</p></div>
+                    </div><!-- obs -->
+        <div class="grid4">
+            <img id="show10" src="assets/impulsionTramos/35-36_01.jpg" alt="">
+            <img id="show11" src="assets/impulsionTramos/35-36_02.jpg" alt="">
+            <img id="show36" src="assets/impulsionTramos/35-36_03.jpg" alt="">
+            <img id="show35" src="assets/impulsionTramos/35-36_04.jpg" alt="">
+            <div id="z" class="z">
+                <!-- <span class="close">cerrar</span> -->
+                <div id="caption"></div>
+                 <img class="modal" src="" alt="" id="myImg">
+                 <div id="caption"></div>
+                    </div> 
+        </div>              
+       
+
+                
+            </section><!-- tramo 35-36 -->
+            <section class="tramos" id="tramo36-37" > <!-- tramo 36-37 -->
+                <p class="descripcion">Tramo 36-37</p>
+                <div class="obs">
+                    <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Excavación</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Perfilado</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Cama de asiento</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Instalación de caño</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Comp. de riñones</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Relleno de 1° etapa</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Relleno de 2° etapa</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Prueba hidráulica</p></div>
+                 </div><!-- obs -->
+    <!-- <div class="grid4">
+        <img id="show10" src="assets/impulsionTramos/35-36_01.jpg" alt="">
+        <img id="show11" src="assets/impulsionTramos/35-36_02.jpg" alt="">
+        <div id="z" class="z">
+          
+            <div id="caption"></div>
+             <img class="modal" src="" alt="" id="myImg">
+             <div id="caption"></div>
+                </div> 
+    </div>               -->
+   
+
+            
+            </section><!-- tramo 36-37 -->
+            <section class="tramos" id="tramo37-38" > <!-- tramo 37-38 -->
+            <p class="descripcion">Tramo 37-38</p>
+            <div class="obs">
+                <div class="obsElementos" > <div class="estado"></div> <p class="completo">Excavación</p></div>
+                <div class="obsElementos" > <div class="estado"></div> <p class="completo">Perfilado</p></div>
+                <div class="obsElementos" > <div class="estado"></div> <p class="completo">Cama de asiento</p></div>
+                <div class="obsElementos" > <div class="estado"></div> <p class="completo">Instalación de caño</p></div>
+                <div class="obsElementos" > <div class="estado"></div> <p class="completo">Comp. de riñones</p></div>
+                <div class="obsElementos" > <div class="estado"></div> <p class="completo">Relleno de 1° etapa</p></div>
+                <div class="obsElementos" > <div class="estado"></div> <p class="completo">Relleno de 2° etapa</p></div>
+                <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Prueba hidráulica</p></div>
+             </div><!-- obs -->
+<div class="grid4">
+    <img id="show14" src="assets/impulsionTramos/37-38_01.jpg" alt=" Relleno de 2° etapa">
+    <img id="show13" src="assets/impulsionTramos/37-38_02.jpg" alt=""> 
+    <img id="show16" src="assets/impulsionTramos/37-38_05.jpg" alt="">
+    <div id="z" class="z">
+        <!-- <span class="close">cerrar</span> -->
+        <div id="caption"></div>
+         <img class="modal" src="" alt="" id="myImg">
+         <div id="caption"></div>
+            </div> 
+</div>              
+
+
+        
+            </section><!-- tramo 37-38 -->
+            <section class="tramos" id="tramo38-39" > <!-- tramo 38-39 -->
+                <p class="descripcion">Tramo 38-39</p>
+                <div class="obs">
+                    <div class="obsElementos" > <div class="estado "></div> <p class="completo">Excavación</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="completo">Perfilado</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="completo">Cama de asiento</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="completo">Instalación de caño</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="completo">Comp. de riñones</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="completo">Relleno de 1° etapa</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="completo">Relleno de 2° etapa</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Prueba hidráulica</p></div>
+                 </div><!-- obs -->
+    <div class="grid4">
+        <img id="show17" src="assets/impulsionTramos/38-39_01.jpg" alt="">
+        <img id="show18" src="assets/impulsionTramos/38-39_02.jpg" alt="">
+       
+        <div id="z" class="z">
+            <!-- <span class="close">cerrar</span> -->
+            <div id="caption"></div>
+             <img class="modal" src="" alt="" id="myImg">
+             <div id="caption"></div>
+                </div> 
+    </div>              
+    
+    
+            
+            </section><!-- tramo 38-39 -->
+            <section class="tramos" id="tramo39-40" > <!-- tramo 39-40 -->
+                <p class="descripcion">Tramo 39-40</p>
+                <div class="obs">
+                    <div class="obsElementos" > <div class="estado"></div> <p class="completo">Excavación</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="completo">Perfilado</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="completo">Cama de asiento</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="completo">Instalación de caño</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="completo">Comp. de riñones</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="completo">Relleno de 1° etapa</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="completo ">Relleno de 2° etapa</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Prueba hidráulica</p></div>
+                 </div><!-- obs -->
+    <div class="grid4">
+        <img id="show20" src="assets/impulsionTramos/39-40_01.jpg" alt="">
+        <img id="show21" src="assets/impulsionTramos/39-40_02.jpg" alt="">
+        <img id="show22" src="assets/impulsionTramos/39-40_03.jpg" alt="">
+        <div id="z" class="z">
+            <!-- <span class="close">cerrar</span> -->
+            <div id="caption"></div>
+             <img class="modal" src="" alt="" id="myImg">
+             <div id="caption"></div>
+                </div> 
+    </div>              
+            </section><!-- tramo 39-40 -->
+            <section class="tramos" id="tramo40-41" > <!-- tramo 40-41 -->
+                <p class="descripcion">Tramo 40-41</p>
+                <div class="obs">
+                    <div class="obsElementos" > <div class="estado"></div> <p class="completo">Excavación</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="completo">Perfilado</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="completo">Cama de asiento</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="completo">Instalación de caño</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="completo">Comp. de riñones</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="completo">Relleno de 1° etapa</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="completo">Relleno de 2° etapa</p></div>
+                    <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Prueba hidráulica</p></div>
+                 </div><!-- obs -->
+    <div class="grid4">
+        <img id="show23" src="assets/impulsionTramos/40-41_01.jpg" alt="">
+        <img id="show24" src="assets/impulsionTramos/40-41_02.jpg" alt="">
+        <img id="show25" src="assets/impulsionTramos/40-41_03.jpg" alt="">
+        <img id="show26" src="assets/impulsionTramos/40-41_04.jpg" alt="">
+        <img id="show27" src="assets/impulsionTramos/40-41_05.jpg" alt="">
+        <div id="z" class="z">
+            <!-- <span class="close">cerrar</span> -->
+            <div id="caption"></div>
+             <img class="modal" src="" alt="" id="myImg">
+             <div id="caption"></div>
+                </div> 
+    </div>              
+                </section><!-- tramo 40-41 -->
+
+
+
+
+
+                <section class="tramos" id="byPass" > <!-- byPass -->
+                    <p class="descripcion">Cañería By Pass</p>
+                    <div class="obs">
+                        <div class="obsElementos" > <div class="estado"></div> <p class="completo">Excavación</p></div>
+                        <div class="obsElementos" > <div class="estado"></div> <p class="completo">Perfilado</p></div>
+                        <div class="obsElementos" > <div class="estado"></div> <p class="completo">Cama de asiento</p></div>
+                        <div class="obsElementos" > <div class="estado"></div> <p class="completo">Instalación de caño</p></div>
+                        <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Comp. de riñones</p></div>
+                        <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Relleno de 1° etapa</p></div>
+                        <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Relleno de 2° etapa</p></div>
+                        <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Prueba hidráulica</p></div>
+                     </div><!-- obs -->
+        <div class="grid4">
+            <img id="show37" src="assets/impulsionTramos/01.jpg" alt="">
+            <img id="show38" src="assets/impulsionTramos/02.jpg" alt="">
+            <img id="show47" src="assets/impulsionTramos/10.jpg" alt="">
+            <img id="show48" src="assets/impulsionTramos/11.jpg" alt="">
+            <img id="show49" src="assets/impulsionTramos/12.jpg" alt="">
+
+          
+            <div id="z" class="z">
+                <!-- <span class="close">cerrar</span> -->
+                <div id="caption"></div>
+                 <img class="modal" src="" alt="" id="myImg">
+                 <div id="caption"></div>
+                    </div> 
+        </div>              
+                    </section><!-- byPass -->
+
+                    <section class="tramos" id="br01" > <!-- br01 -->
+                        <p class="descripcion">BR01</p>
+                        <!-- <div class="obs">
+                            <div class="obsElementos" > <div class="estado"></div> <p class="completo">Excavación</p></div>
+                            <div class="obsElementos" > <div class="estado"></div> <p class="completo">Perfilado</p></div>
+                            <div class="obsElementos" > <div class="estado"></div> <p class="completo">Cama de asiento</p></div>
+                            <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Instalación de caño</p></div>
+                            <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Comp. de riñones</p></div>
+                            <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Relleno de 1° etapa</p></div>
+                            <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Relleno de 2° etapa</p></div>
+                            <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Prueba hidráulica</p></div>
+                         </div> -->
+            <div class="grid4">
+                <img id="show39" src="assets/impulsionTramos/03.jpg" alt="">
+                <img id="show40" src="assets/impulsionTramos/04.jpg" alt="">
+                <img id="show41" src="assets/impulsionTramos/05.jpg" alt="">
+                <img id="show42" src="assets/impulsionTramos/09.jpg" alt="">
+               
+              
+                <div id="z" class="z">
+                    <!-- <span class="close">cerrar</span> -->
+                    <div id="caption"></div>
+                     <img class="modal" src="" alt="" id="myImg">
+                     <div id="caption"></div>
+                        </div> 
+            </div>              
+                        </section><!-- br01 -->
+
+
+                        <section class="tramos" id="br02" > <!-- br02 -->
+                            <p class="descripcion">BR02</p>
+                            <!-- <div class="obs">
+                                <div class="obsElementos" > <div class="estado"></div> <p class="completo">Excavación</p></div>
+                                <div class="obsElementos" > <div class="estado"></div> <p class="completo">Perfilado</p></div>
+                                <div class="obsElementos" > <div class="estado"></div> <p class="completo">Cama de asiento</p></div>
+                                <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Instalación de caño</p></div>
+                                <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Comp. de riñones</p></div>
+                                <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Relleno de 1° etapa</p></div>
+                                <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Relleno de 2° etapa</p></div>
+                                <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Prueba hidráulica</p></div>
+                             </div> -->
+                <div class="grid4">
+                    <img id="show43" src="assets/impulsionTramos/06.jpg" alt="">
+                    <img id="show44" src="assets/impulsionTramos/07.jpg" alt="">
+                    <img id="show45" src="assets/impulsionTramos/08.jpg" alt="">
+                    <img id="show46" src="assets/impulsionTramos/09.jpg" alt="">
+                   
+                  
+                    <div id="z" class="z">
+                        <!-- <span class="close">cerrar</span> -->
+                        <div id="caption"></div>
+                         <img class="modal" src="" alt="" id="myImg">
+                         <div id="caption"></div>
+                            </div> 
+                </div>              
+                            </section><!-- br02 -->
+
+
+                            <section class="tramos" id="este" > <!-- cercoEste -->
+                                <p class="descripcion">Cerco Perimetral Este</p>
+                                <!-- <div class="obs">
+                                    <div class="obsElementos" > <div class="estado"></div> <p class="completo">Excavación</p></div>
+                                    <div class="obsElementos" > <div class="estado"></div> <p class="completo">Perfilado</p></div>
+                                    <div class="obsElementos" > <div class="estado"></div> <p class="completo">Cama de asiento</p></div>
+                                    <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Instalación de caño</p></div>
+                                    <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Comp. de riñones</p></div>
+                                    <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Relleno de 1° etapa</p></div>
+                                    <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Relleno de 2° etapa</p></div>
+                                    <div class="obsElementos" > <div class="estado"></div> <p class="incompleto">Prueba hidráulica</p></div>
+                                 </div> -->
+                    <div class="grid4">
+                        <img id="show50" src="assets/impulsionTramos/13.jpg" alt="">
+                        <img id="show51" src="assets/impulsionTramos/14.jpg" alt="">
+                        <img id="show52" src="assets/impulsionTramos/15.jpg" alt="">
+                        <img id="show53" src="assets/impulsionTramos/16.jpg" alt="">
+                        <img id="show54" src="assets/impulsionTramos/17.jpg" alt="">
+                       
+                      
+                        <div id="z" class="z">
+                            <!-- <span class="close">cerrar</span> -->
+                            <div id="caption"></div>
+                             <img class="modal" src="" alt="" id="myImg">
+                             <div id="caption"></div>
+                                </div> 
+                    </div>              
+                                </section><!-- cercoEste -->
+
+              
+
+        </section><!-- izquierda -->
+        
+    </section><!-- contenedor -->
+    <footer></footer>   
+
+    
+
+    
+    
+</body>
+<script src="main.js"></script>
+</html>
