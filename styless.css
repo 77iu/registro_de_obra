@@ -38,7 +38,8 @@ color: white;
   
 max-width: 1280px;
 margin: auto;
-height: calc(100vh - 110px );
+height: calc(100vh - 30px);
+/* height: calc(100vh - 110px ); */
 
 
 /* overflow-y: scroll; */ 
@@ -124,6 +125,7 @@ footer{
   height: 30px;
   background-color: #000090;
  
+
   margin: auto;
 }
 /* ========================================================================GGG */
@@ -398,6 +400,7 @@ cursor: pointer;
   float: left;
   width: 10%;
   height: 100%;
+ 
   background-color: #000090;
   display: block;
  }
