@@ -41,10 +41,18 @@ padding-top: 80px;
 max-width: 1280px;
 margin: auto;
 height: calc(100vh - 30px);
+background-color: black;
+animation: contenedor 2s 2s forwards ;
 /* height: calc(100vh - 110px ); */
-
-
 /* overflow-y: scroll; */ 
+}
+@keyframes contenedor{
+  0%{
+    background-color: black;
+  }
+  100%{
+    background-color: rgba(0, 0, 0,0);
+  }
 }
 
 .completo{
@@ -93,6 +101,16 @@ width: 40%;
 float: right;
 overflow-y: scroll;
 height: 100%;
+opacity: 0;
+animation: derechaA 2s 2s forwards;
+}
+@keyframes derechaA {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
 }
 /* ========================================================================EEE */
 
@@ -137,10 +155,20 @@ height: 100%;
 footer{
   max-width: 1280px;
   height: 30px;
-  background-color: #000090;
- 
-
+  background-color: black;
   margin: auto;
+  animation: footerA 2s 2s forwards;
+}
+
+
+
+@keyframes footerA {
+  0%{
+    background-color: black;
+  }
+  100%{
+    background-color: #000090;
+  }
 }
 /* ========================================================================GGG */
 .grid4{
@@ -154,12 +182,22 @@ header{
 max-width: 1280px;
 margin: auto;
 height: 80px;
-background-color: #000090;
+/* background-color: #000090; */
+background-color: black;
 position: fixed;
 left: 0;
 right: 0;
-
+animation: headerPc 2s 2s forwards;
 }
+@keyframes headerPc {
+  0%{
+    background-color: black;
+  }
+  100%{
+    background-color: #000090;
+  }
+}
+
 
 
 h1{
@@ -167,8 +205,17 @@ h1{
 text-align: center;
 padding-top: 20px;
 color: white;
-
+animation: h1A 6s forwards;
 }
+@keyframes h1A {
+  0%{
+    color: black;
+  }
+  100%{
+   color: white;
+  }
+}
+
 
 
 /* ========================================================================III */
@@ -177,6 +224,18 @@ color: white;
   width: 60%;
   height: 100%;
   overflow-y: scroll;
+  opacity: 0;
+  animation: izquierdaA 2s 2s forwards;
+}
+
+
+@keyframes izquierdaA {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
 }
 .items{
 background-color: rgba(0, 0, 0,0);
@@ -418,20 +477,40 @@ cursor: pointer;
   width: 10%;
   height: 100%;
  
-  background-color: #000090;
+  /* background-color: #000090; */
+  background-color: black;
   display: block;
+  animation: barra 2s 2s forwards;
  }
+
+ @keyframes barra {
+  0%{
+    background-color: black;
+  }
+  100%{
+    background-color: #000090;
+  }
+}
+
  .barraLateraltitulo h1{
   transform: rotate(270deg);
-  position: absolute;
+   position: absolute;
   top: 80px;
-  left: -65px;
-  /* display: inline-block; */
-  
+  left: -65px; 
   font-size: 20px;
   align-items: center;
-  
+  animation: barraH1 6s forwards;
  }
+
+ @keyframes barraH1 {
+  0%{
+    color: black;
+  }
+  100%{
+    color: white;
+  }
+}
+ 
  .completo{
    font-size: 12px;
    padding:2px 2px 2px 2px ;
